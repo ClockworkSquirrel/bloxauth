@@ -1,0 +1,30 @@
+{
+  "name": "bloxauth",
+  "version": "0.0.1",
+  "description": "Utility for retrieving Roblox user cookies",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClockworkSquirrel/bloxauth.git"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "engineStrict": true,
+  "author": "clockworksquirrel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClockworkSquirrel/bloxauth/issues"
+  },
+  "homepage": "https://github.com/ClockworkSquirrel/bloxauth#readme",
+  "dependencies": {
+    "@bradhugh/node-dpapi": "github:bradhugh/node-dpapi",
+    "ini": "^1.3.5",
+    "rage-edit": "^1.2.0",
+    "sqlite-async": "^1.1.0"
+  }
+}
